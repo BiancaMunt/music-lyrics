@@ -1,0 +1,15 @@
+{
+  "songs": [
+  { 
+    "track_id":1,
+    "track": "I Gotta Feeling",
+    "artist": "Black Eyed Peas"
+  }
+],
+  "lyrics": [
+    {
+      "track_id":1,
+      "lyrics": "I gotta feel, I gotta feeling, that tonight, that tonight, That tonight's gonna be a good, good, good, good, good night"
+    }
+  ]
+}

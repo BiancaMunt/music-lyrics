@@ -1,0 +1,19 @@
+{
+  "name": "music-lyrics",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 8080",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "Bianca Munteanu",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.16.1",
+    "node-fetch": "^2.6.0"
+  }
+}
