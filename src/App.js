@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Song from './components/Song';
 import Songs from './components/Songs';
 import { Provider } from './Context';
 
@@ -12,11 +11,8 @@ class App extends Component {
     return (
       <Provider>
         <BrowserRouter>
-            <nav>Get the Lyrics for your Favorite Songs</nav>
+            <nav className='text-center bg-info text-white'>Lyrics for your Favorite Songs</nav>
             <Switch>
-              <Route exact path='/about'>
-                <Song />
-              </Route>
               <Route exact path='/'>
                 <Songs />
               </Route>

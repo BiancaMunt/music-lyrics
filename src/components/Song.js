@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Song extends Component {
-  render() {
+function Song(props) {
+  const { song } = props;
     return (
-      <h1>hello</h1>
+      <div className="col-md-6">
+        <div className="card mb-4 shadow-sm">
+          <div className="card-body">
+          <h5>{song.artist_name}</h5>
+          </div>
+        </div> 
+      </div>
     );
-  }
 }
 
 export default Song;
