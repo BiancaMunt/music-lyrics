@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Songs from './components/Songs';
 import { Provider } from './Context';
 
@@ -10,12 +8,10 @@ class App extends Component {
     return (
       <Provider>
         <BrowserRouter>
-            <nav className='text-center bg-info text-white'>Lyrics for your Favorite Songs</nav>
-            <Switch>
+            <nav className='text-center bg-info text-white mb-5'>Lyrics for your Favorite Songs</nav>
               <Route exact path='/'>
                 <Songs />
               </Route>
-            </Switch>
           </BrowserRouter>
       </Provider>
     );

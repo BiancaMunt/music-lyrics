@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-
 
 class Song extends Component {
   constructor(props) {
@@ -11,9 +9,9 @@ class Song extends Component {
   }
   
   showLyrics = () => {
-    console.log(this.state.isVisible)
     this.setState(({isVisible: !this.state.isVisible}))
   }
+  
   render() {
     const { song, artist, id, lyrics} = this.props;
     return (

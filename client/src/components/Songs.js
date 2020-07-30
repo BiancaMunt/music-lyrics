@@ -7,11 +7,10 @@ class Songs extends Component {
     return (
       <Consumer>
         {value => {
-          console.log(value)
           const { songList, heading } = value;
           return (
             <>
-            <h2 className="text-center  text-info">{heading}</h2>
+            <h2 className="text-center  text-info mb-5">{heading}</h2>
             <div className="row">
               {songList.map(el => (
                 <Song key={el.track_id} song={el.track} lyrics={el.lyrics} artist={el.artist} id={el.track_id}/>

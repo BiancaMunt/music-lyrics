@@ -10,11 +10,6 @@ server.use('/songs', (req, res, next) => {
   res.send(req.body)
   next();
 });
-// server.use('/lyrics', (req, res, next) => {
- 
-//   res.send(req.body)
-//   next();
-// });
 
 server.use(router);
 server.listen(8080, () => {

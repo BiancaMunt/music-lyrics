@@ -10,7 +10,6 @@ export class Provider extends Component {
 
   componentDidMount() {
     this.fetchSongs()
-    console.log(this.state)
   }
 
   fetchSongs() {
