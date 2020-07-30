@@ -3,13 +3,14 @@
   { 
     "track_id":1,
     "track": "I Gotta Feeling",
-    "artist": "Black Eyed Peas"
+    "artist": "Black Eyed Peas",
+    "lyrics": "I gotta feel, I gotta feeling, that tonight, that tonight, That tonight's gonna be a good, good, good, good, good night"
+  },
+  { 
+    "track_id":2,
+    "track": "Someone Else",
+    "artist": "Duncan Laurence",
+    "lyrics": "Lately I found myself on the crowded side of the street, Eating in busy restaurants every night of the week, Strangers don't even know that they're keeping me company, oh"
   }
-],
-  "lyrics": [
-    {
-      "track_id":1,
-      "lyrics": "I gotta feel, I gotta feeling, that tonight, that tonight, That tonight's gonna be a good, good, good, good, good night"
-    }
-  ]
+ ]
 }
