@@ -2,15 +2,51 @@
   "songs": [
   { 
     "track_id":1,
-    "track": "I Gotta Feeling",
-    "artist": "Black Eyed Peas",
-    "lyrics": "I gotta feel, I gotta feeling, that tonight, that tonight, That tonight's gonna be a good, good, good, good, good night"
+    "track": "Killer Queen",
+    "artist": "Queen",
+    "lyrics": "She keeps her Moet et Chandon / In her pretty cabinet / Let them eat cake, she says / Just like Marie Antoinette "
   },
   { 
     "track_id":2,
     "track": "Someone Else",
     "artist": "Duncan Laurence",
     "lyrics": "Lately I found myself on the crowded side of the street, Eating in busy restaurants every night of the week, Strangers don't even know that they're keeping me company, oh"
+  },
+  { 
+    "track_id":3,
+    "track": "Falling",
+    "artist": "Trevor Daniel",
+    "lyrics": "My last made me feel like I would never try again / But when I saw you, I felt something I never felt / Come closer, I'll give you all my love"
+  },
+  { 
+    "track_id":4,
+    "track": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "lyrics": "Tastes like strawberries on a summer evenin' / And it sounds just like a song / I want more berries and that summer feelin' / It's so wonderful and warm"
+  },
+  { 
+    "track_id":5,
+    "track": "Caught Out in the Rain",
+    "artist": "Beth Hart",
+    "lyrics": "I got caught out in the rain / If I die I don't care, I'm in love / I'm in love, I'm in love with this man / I got caught out, caught out / Caught out in the rain"
+  },
+  { 
+    "track_id":6,
+    "track": "Old Time Rock & Roll",
+    "artist": "Bob Seger & The Silver Bullet Band",
+    "lyrics": "Just take those old records off the shelf / I'll sit and listen to 'em by myself / Today's music ain't got the same soul / I like that old time rock 'n' roll / Don't try to take me to a disco"
+  },
+  { 
+    "track_id":7,
+    "track": "Diggin'",
+    "artist": "Kovacs",
+    "lyrics": "Look here / There's something to know / I'm not like others / This needs to go slow / Got things, things on my mind / Visions to make / And gold dust to find"
+  },
+  { 
+    "track_id":8,
+    "track": "La Llorona",
+    "artist": "Carmen Goett",
+    "lyrics": "¡Ay!, de mí llorona, llorona, llorona, de azul celeste / ¡Ay!, de mí llorona, llorona, llorona de azul celeste / Aunque la vida me cueste, llorona, no dejaré de quererte"
   }
  ]
 }
